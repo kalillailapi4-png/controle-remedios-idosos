@@ -1,0 +1,20 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" rx="120" fill="#3B82F6"/>
+  
+  <!-- Pill Icon -->
+  <g transform="translate(106, 106)">
+    <!-- Left half (white) -->
+    <path d="M150 50 L150 250 C150 277.614 127.614 300 100 300 L50 300 C22.386 300 0 277.614 0 250 L0 100 C0 72.386 22.386 50 50 50 L150 50 Z" fill="white"/>
+    
+    <!-- Right half (red) -->
+    <path d="M150 50 L250 50 C277.614 50 300 72.386 300 100 L300 250 C300 277.614 277.614 300 250 300 L150 300 L150 50 Z" fill="#EF4444"/>
+    
+    <!-- Center line -->
+    <line x1="150" y1="50" x2="150" y2="300" stroke="#1E40AF" stroke-width="8"/>
+    
+    <!-- Plus sign on white side -->
+    <line x1="75" y1="120" x2="75" y2="180" stroke="#3B82F6" stroke-width="12" stroke-linecap="round"/>
+    <line x1="45" y1="150" x2="105" y2="150" stroke="#3B82F6" stroke-width="12" stroke-linecap="round"/>
+  </g>
+</svg>
